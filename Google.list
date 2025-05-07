@@ -1,10 +1,9 @@
 # 名称: Google 服务规则列表
-# 作者: 根据用户文件及常见规则整理
 # 更新日期: 2025-05-06 (处理日期)
 # 此列表包含专门针对Google及其相关服务的规则。
 
 # DOMAIN 规则
-DOMAIN,accounts.googlers.com # 来自 2.txt
+DOMAIN,accounts.googlers.com,🌍 谷歌 # 
 
 # DOMAIN-KEYWORD 规则
 DOMAIN-KEYWORD,google
