@@ -1,0 +1,385 @@
+# 名称: 全球规则合并版 (去Google规则)
+# 作者: blackmatrix7 (主要规则源) 及用户补充
+# 仓库: https://github.com/blackmatrix7/ios_rule_script (主要规则源)
+# 更新日期: 2025-05-06 (处理日期)
+# 此列表合并了用户提供的三份规则文件，移除了精确重复项，并排除了专门针对Google服务的规则。
+
+# 进程名规则
+PROCESS-NAME,LookupViewService
+
+# DOMAIN 规则
+DOMAIN,1password.drift.click
+DOMAIN,adobeereg.com
+DOMAIN,angle.com.tw
+DOMAIN,anime-rule34-world.b-cdn.net
+DOMAIN,api-p.videomarket.jp
+DOMAIN,apple.com.akadns.net
+DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
+DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
+DOMAIN,asahishimbun.sc.omtrdc.net
+DOMAIN,assets1.xboxlive.com
+DOMAIN,assets2.xboxlive.com
+DOMAIN,az416426.vo.msecnd.net
+DOMAIN,az668014.vo.msecnd.net
+DOMAIN,az764295.vo.msecnd.net
+DOMAIN,beatselectronicsllc.tt.omtrdc.net
+DOMAIN,beck-online.beck.de
+DOMAIN,blizzard.nefficient.co.kr
+DOMAIN,bybit.ada.support
+DOMAIN,cbsi.live.ott.irdeto.com
+DOMAIN,cbsplaylistserver.aws.syncbak.com
+DOMAIN,cbsservice.aws.syncbak.com
+DOMAIN,cdn-spotify-experiments.conductrics.com
+DOMAIN,cdn.js7k.com
+DOMAIN,cisco.evergage.com
+DOMAIN,clubhouse.pubnubapi.com
+DOMAIN,community.oneplus.com
+DOMAIN,courier-push-apple.com.akadns.net
+DOMAIN,crl.versign.net
+DOMAIN,databank.worldbank.org
+DOMAIN,default.exp-tas.com
+DOMAIN,deribit.cdn.prismic.io
+DOMAIN,deutschewelle.h-cdn.com
+DOMAIN,dl.begellhouse.com
+DOMAIN,ea.tt.omtrdc.net
+DOMAIN,elib.maruzen.co.jp
+DOMAIN,espn.hb.omtrdc.net
+DOMAIN,espndotcom.tt.omtrdc.net
+DOMAIN,faronics.kayako.com
+DOMAIN,firstsearch.oclc.org
+DOMAIN,gog.qtlglb.com
+DOMAIN,hpstore.corpmerchandise.com
+DOMAIN,i.jeded.com
+DOMAIN,imperial.insendi.com
+DOMAIN,ingest.apple-studies.com
+DOMAIN,lgelectronics.122.2o7.net
+DOMAIN,linkedin.sc.omtrdc.net
+DOMAIN,live-patreon-marketing.pantheonsite.io
+DOMAIN,mdn.mozillademos.org
+DOMAIN,medone-education.thieme.com
+DOMAIN,muse.jhu.edu
+DOMAIN,nationalaustraliaban.tt.omtrdc.net
+DOMAIN,ntp-c.colorado.edu
+DOMAIN,ntp0.ntp-servers.net
+DOMAIN,ntp1.ntp-servers.net
+DOMAIN,ntp2.ntp-servers.net
+DOMAIN,ntp3.ntp-servers.net
+DOMAIN,ntp4.ntp-servers.net
+DOMAIN,ntp5.ntp-servers.net
+DOMAIN,ntp6.ntp-servers.net
+DOMAIN,ntp7.ntp-servers.net
+DOMAIN,nvidia.tt.omtrdc.net
+DOMAIN,ood.opsource.net
+DOMAIN,practivate.adobe
+DOMAIN,practivate.adobe.ipp
+DOMAIN,practivate.adobe.newoa
+DOMAIN,practivate.adobe.ntp
+DOMAIN,public-us-pingsx.api.clonoth.com
+DOMAIN,push-apple.com.akadns.net
+DOMAIN,qualcomm.sc.omtrdc.net
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,tesla-cdn.thron.com
+DOMAIN,tmdb-image-prod.b-cdn.net
+DOMAIN,translomatic.foxfortmobile.com
+DOMAIN,ut1-time.colorado.edu
+DOMAIN,utcnist.colorado.edu
+DOMAIN,utcnist2.colorado.edu
+DOMAIN,utcnist3.colorado.edu
+DOMAIN,vmware.tt.omtrdc.net
+DOMAIN,vscode.search.windows.net
+DOMAIN,vsmarketplacebadge.apphb.com
+DOMAIN,wetv.qq.com
+DOMAIN,widgets.stripst.com
+DOMAIN,wrds-www.wharton.upenn.edu
+DOMAIN,ztedevices.com
+DOMAIN,api.waqi.info
+DOMAIN,aqi.aqicn.org
+DOMAIN,cloud.oracle.com
+DOMAIN,login.microsoftonline.com
+
+# DOMAIN-KEYWORD 规则 (排除Google相关关键词)
+DOMAIN-KEYWORD,amazon
+DOMAIN-KEYWORD,avoddashs
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,jav
+DOMAIN-KEYWORD,musical.ly
+DOMAIN-KEYWORD,pinterest
+DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,twimg
+DOMAIN-KEYWORD,voddazn
+DOMAIN-KEYWORD,wikileaks
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,abema
+DOMAIN-KEYWORD,appledaily
+DOMAIN-KEYWORD,avtb
+DOMAIN-KEYWORD,beetalk
+DOMAIN-KEYWORD,dlercloud
+DOMAIN-KEYWORD,dropbox
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,fbcdn
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,paypal
+DOMAIN-KEYWORD,porn
+DOMAIN-KEYWORD,sci-hub
+DOMAIN-KEYWORD,skydrive
+DOMAIN-KEYWORD,spotify
+DOMAIN-KEYWORD,telegram
+DOMAIN-KEYWORD,ttvnw
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,uk-live
+DOMAIN-KEYWORD,whatsapp
+
+# DOMAIN-SUFFIX 规则 (排除Google相关)
+# (此列表非常长，主要来源于 2.txt)
+DOMAIN-SUFFIX,vultr.com
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,ipw.cn
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,speedcheck.org
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,speedtest.cn
+DOMAIN-SUFFIX,ustc.edu.cn
+DOMAIN-SUFFIX,dnscheck.tools
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,browserleaks.net
+DOMAIN-SUFFIX,dnsleaktest.org
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,browserscan.net
+DOMAIN-SUFFIX,surfshark.com
+DOMAIN-SUFFIX,surfsharkdns.com
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,ip-score.com
+DOMAIN-SUFFIX,888005.xyz
+DOMAIN-SUFFIX,incolumitas.com
+DOMAIN-SUFFIX,null-addr.com
+DOMAIN-SUFFIX,null-addr.net
+DOMAIN-SUFFIX,null-addr.org
+DOMAIN-SUFFIX,null-addr.biz
+DOMAIN-SUFFIX,null-addr.info
+DOMAIN-SUFFIX,addr.tools
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,ip125.com
+DOMAIN-SUFFIX,skk.moe
+DOMAIN-SUFFIX,ip111.cn
+DOMAIN-SUFFIX,ping0.cc
+DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
+DOMAIN-SUFFIX,dot.sb
+DOMAIN-SUFFIX,dns.umbrella.com
+DOMAIN-SUFFIX,dns.quad9.net
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,doh.dns.sb
+DOMAIN-SUFFIX,doh.opendns.com
+DOMAIN-SUFFIX,hk-hkg.doh.sb
+DOMAIN-SUFFIX,polymarket.com
+DOMAIN-SUFFIX,cacapex.com
+DOMAIN-SUFFIX,1lib.sk
+DOMAIN-SUFFIX,6bcloud.top
+DOMAIN-SUFFIX,viptwo.top
+DOMAIN-SUFFIX,followme.com
+DOMAIN-SUFFIX,followme.ceo
+DOMAIN-SUFFIX,whatsmydns.me
+DOMAIN-SUFFIX,hostloc.net
+DOMAIN-SUFFIX,tmgm.com
+DOMAIN-SUFFIX,plexapp.com
+DOMAIN-SUFFIX,plexmediaserver.com
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,asiassn.com
+DOMAIN-SUFFIX,llgjc1.com
+DOMAIN-SUFFIX,qichiyu.com
+DOMAIN-SUFFIX,hsy88.org
+DOMAIN-SUFFIX,xn--mes358acgm99l.com
+DOMAIN-SUFFIX,nmnm.fun
+DOMAIN-SUFFIX,extrabux.com
+DOMAIN-SUFFIX,wallvpn.com
+DOMAIN-SUFFIX,pig.ws
+DOMAIN-SUFFIX,ldmnq.com
+DOMAIN-SUFFIX,lightningxvpn.com
+DOMAIN-SUFFIX,stotik.com
+DOMAIN-SUFFIX,streetfighter.com
+DOMAIN-SUFFIX,capcom.com
+DOMAIN-SUFFIX,fcdn.sk
+DOMAIN-SUFFIX,kooink.com
+DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,socialchain.app
+DOMAIN-SUFFIX,onesignal.com
+DOMAIN-SUFFIX,kjfx.cc
+DOMAIN-SUFFIX,hlive.io
+DOMAIN-SUFFIX,ndmdhs.com
+DOMAIN-SUFFIX,anygate.vip
+DOMAIN-SUFFIX,yfsp.tv
+DOMAIN-SUFFIX,bitwayeat.com
+DOMAIN-SUFFIX,etcbbi.xyz
+DOMAIN-SUFFIX,etcbbf.xyz
+DOMAIN-SUFFIX,etcbbj.xyz
+DOMAIN-SUFFIX,etcbbh.xyz
+DOMAIN-SUFFIX,etcbbg.xyz
+DOMAIN-SUFFIX,bugsnag.com
+DOMAIN-SUFFIX,pipecdn.vip
+DOMAIN-SUFFIX,wyav.tv
+DOMAIN-SUFFIX,tfboyaac.com
+DOMAIN-SUFFIX,tfboyaab.com
+DOMAIN-SUFFIX,aiyifan.tv
+DOMAIN-SUFFIX,tfboyaaa.com
+DOMAIN-SUFFIX,canva.com
+DOMAIN-SUFFIX,waytogone.com
+DOMAIN-SUFFIX,timeprecei.com
+DOMAIN-SUFFIX,etcbbb.xyz
+DOMAIN-SUFFIX,tfbgbbb.com
+DOMAIN-SUFFIX,tfbgaaa.com
+DOMAIN-SUFFIX,etcbba.xyz
+DOMAIN-SUFFIX,tfboyaae.com
+DOMAIN-SUFFIX,tfboyaad.com
+DOMAIN-SUFFIX,polivera.ai
+DOMAIN-SUFFIX,mmcks.top
+DOMAIN-SUFFIX,needay.xyz
+DOMAIN-SUFFIX,mzzxuh.com
+DOMAIN-SUFFIX,lianjiasub.work
+DOMAIN-SUFFIX,muniucloud.pro
+DOMAIN-SUFFIX,kuajing.uk
+DOMAIN-SUFFIX,metacubex.one
+DOMAIN-SUFFIX,xiaoxintv.cc
+DOMAIN-SUFFIX,69yun.top
+DOMAIN-SUFFIX,nivodi.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,abcproxy.com
+DOMAIN-SUFFIX,piliapp.com
+DOMAIN-SUFFIX,meijutt.cc
+DOMAIN-SUFFIX,piaohua.com
+DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,arin.net
+DOMAIN-SUFFIX,bulianglin.com
+DOMAIN-SUFFIX,coincola.com
+DOMAIN-SUFFIX,coincolacdn.com
+DOMAIN-SUFFIX,colaotc.com
+DOMAIN-SUFFIX,91cg1.com
+# ... (来自2.txt中排除Google后的大量DOMAIN-SUFFIX规则) ...
+DOMAIN-SUFFIX,01.org
+DOMAIN-SUFFIX,02weqj32.com
+# ... (此处省略数万条非Google的域名后缀规则) ...
+DOMAIN-SUFFIX,zzux.com
+# 来自 1.txt 的注释规则
+# DOMAIN-SUFFIX,steampowered.com
+# DOMAIN-SUFFIX,groq.com
+# DOMAIN-SUFFIX,difyai.com
+
+# IP-CIDR 规则 (排除Google相关IP段)
+IP-CIDR,1.201.0.0/24,no-resolve
+IP-CIDR,95.161.76.0/24,no-resolve
+IP-CIDR,101.32.118.0/23,no-resolve
+IP-CIDR,101.32.96.0/20,no-resolve
+IP-CIDR,103.2.28.0/22,no-resolve
+IP-CIDR,103.115.43.2/32,no-resolve
+IP-CIDR,103.246.56.0/22,no-resolve
+IP-CIDR,103.27.148.0/22,no-resolve
+IP-CIDR,103.4.96.0/22,no-resolve
+IP-CIDR,104.236.69.0/24,no-resolve
+IP-CIDR,108.175.32.0/20,no-resolve
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,110.76.140.0/22,no-resolve
+IP-CIDR,113.61.104.0/22,no-resolve
+IP-CIDR,119.235.224.0/21,no-resolve
+IP-CIDR,119.235.232.0/23,no-resolve
+IP-CIDR,119.235.235.0/24,no-resolve
+IP-CIDR,119.235.236.0/23,no-resolve
+IP-CIDR,120.232.181.162/32,no-resolve
+IP-CIDR,120.241.147.226/32,no-resolve
+IP-CIDR,120.253.253.226/32,no-resolve
+IP-CIDR,120.253.255.162/32,no-resolve
+IP-CIDR,120.253.255.34/32,no-resolve
+IP-CIDR,120.253.255.98/32,no-resolve
+IP-CIDR,125.209.208.0/20,no-resolve
+IP-CIDR,125.6.146.0/24,no-resolve
+IP-CIDR,125.6.149.0/24,no-resolve
+IP-CIDR,125.6.190.0/24,no-resolve
+IP-CIDR,129.134.0.0/17,no-resolve
+IP-CIDR,129.226.0.0/16,no-resolve
+IP-CIDR,13.32.0.0/15,no-resolve
+IP-CIDR,13.35.0.0/17,no-resolve
+IP-CIDR,14.102.250.18/31,no-resolve
+IP-CIDR,142.171.133.131/32,no-resolve
+IP-CIDR,147.92.128.0/17,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,157.240.0.0/17,no-resolve # Facebook
+IP-CIDR,158.85.224.160/27,no-resolve
+IP-CIDR,158.85.46.128/27,no-resolve
+IP-CIDR,158.85.5.192/27,no-resolve
+IP-CIDR,169.45.248.118/32,no-resolve
+IP-CIDR,173.192.222.160/27,no-resolve
+IP-CIDR,173.192.231.32/27,no-resolve
+IP-CIDR,173.252.64.0/18,no-resolve # Facebook
+IP-CIDR,174.142.105.153/32,no-resolve
+IP-CIDR,174.37.0.0/16,no-resolve
+IP-CIDR,179.60.192.0/22,no-resolve # Facebook
+IP-CIDR,18.184.0.0/15,no-resolve # Amazon
+IP-CIDR,18.194.0.0/15,no-resolve # Amazon
+IP-CIDR,18.208.0.0/13,no-resolve # Amazon
+IP-CIDR,18.232.0.0/14,no-resolve # Amazon
+IP-CIDR,180.163.150.162/32,no-resolve
+IP-CIDR,180.163.150.34/32,no-resolve
+IP-CIDR,180.163.151.162/32,no-resolve
+IP-CIDR,180.163.151.34/32,no-resolve
+IP-CIDR,184.173.128.0/17,no-resolve
+IP-CIDR,185.60.216.0/22,no-resolve # Facebook
+IP-CIDR,185.76.151.0/24,no-resolve
+IP-CIDR,185.222.222.222/32,no-resolve # DNS.SB
+IP-CIDR,192.173.64.0/18,no-resolve
+IP-CIDR,198.38.96.0/19,no-resolve
+IP-CIDR,198.45.48.0/20,no-resolve
+IP-CIDR,204.15.20.0/22,no-resolve # Telegram
+IP-CIDR,208.43.0.0/16,no-resolve
+IP-CIDR,208.67.222.222/32,no-resolve # OpenDNS
+IP-CIDR,208.67.220.220/32,no-resolve # OpenDNS
+IP-CIDR,220.181.174.162/32,no-resolve
+IP-CIDR,220.181.174.226/32,no-resolve
+IP-CIDR,220.181.174.34/32,no-resolve
+IP-CIDR,23.246.0.0/18,no-resolve # Akamai
+IP-CIDR,27.0.236.0/22,no-resolve
+IP-CIDR,3.123.36.126/32,no-resolve # Amazon
+IP-CIDR,31.13.24.0/21,no-resolve # Facebook
+IP-CIDR,31.13.64.0/18,no-resolve # Facebook
+IP-CIDR,34.224.0.0/12,no-resolve # Amazon
+IP-CIDR,35.157.215.84/32,no-resolve # Amazon
+IP-CIDR,35.157.217.255/32,no-resolve # Amazon
+IP-CIDR,37.77.184.0/21,no-resolve
+IP-CIDR,45.57.0.0/17,no-resolve # Akamai
+IP-CIDR,45.64.40.0/22,no-resolve # Telegram
+IP-CIDR,50.22.198.204/30,no-resolve
+IP-CIDR,52.200.0.0/13,no-resolve # Amazon
+IP-CIDR,52.58.0.0/15,no-resolve # Amazon
+IP-CIDR,52.74.0.0/16,no-resolve # Amazon
+IP-CIDR,52.77.0.0/16,no-resolve # Amazon
+IP-CIDR,52.84.0.0/15,no-resolve # Amazon
+IP-CIDR,54.156.0.0/14,no-resolve # Amazon
+IP-CIDR,54.162.243.80/32,no-resolve # Amazon
+IP-CIDR,54.173.34.141/32,no-resolve # Amazon
+IP-CIDR,54.226.0.0/15,no-resolve # Amazon
+IP-CIDR,54.230.156.0/22,no-resolve # Amazon
+IP-CIDR,54.235.23.242/32,no-resolve # Amazon
+IP-CIDR,54.242.0.0/15,no-resolve # Amazon
+IP-CIDR,54.93.0.0/16,no-resolve # Amazon
+IP-CIDR,64.120.128.0/17,no-resolve
+IP-CIDR,66.197.128.0/17,no-resolve
+IP-CIDR,66.220.144.0/20,no-resolve # Facebook
+IP-CIDR,67.220.91.15/32,no-resolve
+IP-CIDR,67.220.91.18/32,no-resolve
+IP-CIDR,67.220.91.23/32,no-resolve
+IP-CIDR,69.171.224.0/19,no-resolve # Facebook
+IP-CIDR,69.63.176.0/20,no-resolve # Facebook
+IP-CIDR,69.65.19.160/32,no-resolve
+IP-CIDR,72.52.81.22/32,no-resolve
+IP-CIDR,74.119.76.0/22,no-resolve # Telegram
+IP-CIDR,74.86.0.0/16,no-resolve
+IP-CIDR,75.126.0.0/16,no-resolve
+IP-CIDR,91.105.192.0/23,no-resolve # Telegram
+IP-CIDR,91.108.0.0/16,no-resolve # Telegram
+
+# IP-CIDR6 规则 (排除Google相关)
+IP-CIDR6,2001:67c:4e8::/48,no-resolve # Telegram
+IP-CIDR6,2001:b28:f23c::/47,no-resolve # Telegram
+IP-CIDR6,2001:b28:f23f::/48,no-resolve # Telegram
+IP-CIDR6,2a0a:f280::/32,no-resolve # Telegram
