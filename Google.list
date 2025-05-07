@@ -3,7 +3,7 @@
 # 此列表包含专门针对Google及其相关服务的规则。
 
 # DOMAIN 规则
-DOMAIN,accounts.googlers.com,🌍 谷歌
+DOMAIN,accounts.googlers.com
 
 # DOMAIN-KEYWORD 规则
 DOMAIN-KEYWORD,google
